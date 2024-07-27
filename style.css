@@ -1,0 +1,121 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styling */
+.hero {
+    background: #eee;
+    padding: 2rem 0;
+}
+
+.hero .carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.carousel-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 1rem;
+}
+
+.carousel-text h3 {
+    margin-bottom: 0.5rem;
+}
+
+.carousel-text .btn {
+    color: #fff;
+    text-decoration: none;
+    background: #ff4081;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem 0;
+}
+
+.anime-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.anime-item {
+    flex: 1 1 200px;
+    margin: 10px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anime-item img {
+    width: 100%;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
